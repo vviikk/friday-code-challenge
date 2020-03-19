@@ -1,0 +1,36 @@
+Arguments: 
+  /home/vik/.nvm/versions/node/v12.16.1/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/vik/.yarn/bin:/home/vik/.config/yarn/global/node_modules/.bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/bin:/home/vik/.vscode-server-insiders/bin/798481c7978af034b054e14ace4e471e7a83f665/bin:/home/vik/bin:/home/vik/.nvm/versions/node/v12.16.1/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/vik.ramanujam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vik.ramanujam/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/snap/bin:/usr/local/go/bin:/home/vik/Go/bin:/home/vik/.fzf/bin:/usr/local/go/bin:/home/vik/Go/bin:/home/piggyslasher/.cargo/bin:/home/vik/.local/kitty.app/bin:/usr/local/go/bin:/home/vik/Android/Sdk:/home/vik/.cache/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-git-extra-commands/bin:/home/vik/n/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:311:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:311:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:311:20)
+      at addChunk (_stream_readable.js:294:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
