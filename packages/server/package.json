@@ -1,0 +1,10 @@
+{
+  "name": "@friday-code-challenge/backend",
+  "version": "1.0.0",
+  "main": "apiserver/server.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./apiserver/server.js"
+  }
+}
