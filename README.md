@@ -8,7 +8,7 @@ $ yarn
 $ yarn start
 ```
 
-Visit [http://localhost:8000/src] to view the site.
+Visit [http://localhost:8000/src](http://localhost:8000/src) to view the site.
 
 ## Technologies used
 - Buildless technology using web-components, es-dev-server (No javascript framework used)
