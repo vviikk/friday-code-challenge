@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+
+  /* this is the "root" in "root em." */
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+
+body {
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5; /* a nice line-height */
+  border: 0 !important; /* my VIM extension for firefox adds some nonsense styling since last week - sorry */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0 0 var(--g);
+  padding: 0;
+  font-weight: normal;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}

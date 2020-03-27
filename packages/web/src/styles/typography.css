@@ -1,0 +1,54 @@
+h1, h2, h3, h4, p, btn, label {
+  --font-size: var(--g); 
+  --line-height: var(--g);
+  --margin-bottom: var(--g);
+
+  line-height: var(--line-height);
+  margin-bottom: var(--margin-bottom);
+  font-size: var(--font-size);
+}
+
+h1 {
+  --font-size: calc(var(--g) * 1.75);
+  color: var(--headings-color);
+  font-weight: bolder;
+}
+
+h1 + h2 {
+    --font-size: var(--g-x2);
+    margin-top: var(--g-neg);
+    color: var(--headings-color);
+}
+
+h2 {
+  --font-size: var(--g);
+  --margin-bottom: 0;
+  font-weight: bold;
+}
+
+h1, h2 {
+  --line-height: var(--g-x2);
+  /* --headings-color: var(--color-info); */
+
+  text-transform: uppercase;
+}
+
+h3 {
+  --font-size: 1.3rem;
+  --margin-bottom: 0;
+  --line-height: var(--g-x2);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body {
+    color: var(--fg);
+}
+
+p, label {
+  --font-size: calc(var(--g) * 1.15);
+}
+
+.case--upper {
+    text-transform: uppercase;
+}

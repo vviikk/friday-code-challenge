@@ -10,8 +10,6 @@
   "devDependencies": {
     "@open-wc/building-webpack": "^2.13.8",
     "es-dev-server": "^1.45.2",
-    "eslint": "^6.8.0",
-    "eslint-plugin-lit": "^1.2.0",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11"
   },

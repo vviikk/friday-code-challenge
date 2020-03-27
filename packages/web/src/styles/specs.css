@@ -1,0 +1,24 @@
+dl dt,
+dl dd {
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+  letter-spacing:normal;
+  word-spacing:normal;
+  vertical-align:top;
+  padding:0;
+  margin:0;
+}
+
+dl dt{
+  font-weight:600;
+  width:48%;
+  padding: 0 2% 0.5em 0;
+  text-transform: capitalize;
+}
+
+dl dd{
+  margin-right:-1px;
+  width:50%;
+  padding: 0 0 0.5em 0;
+}
