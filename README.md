@@ -21,4 +21,5 @@ Visit [http://localhost:8000/src](http://localhost:8000/src) to view the site.
 - split all REST logic into services
 - API endpoints declared in one file
 - Didn't have time to write tests
+- code for front-end [in this folder](https://github.com/vviikk/friday-code-challenge/tree/master/packages/web/src)
 
