@@ -1,10 +1,10 @@
 import { html } from 'lit-html';
 
-const renderRow = ([label, value]) => html `
+const renderRow = ([label, value]) => html`
   <dt>${label.replace(/([A-Z]+)/g, ' $1').replace(/([A-Z][a-z])/g, ' $1')}</dt>
   <dd>${value}</dd>`;
 
-export default ({ make, model, ...car }) => html `
+export default ({ make, model, ...car }) => html`
   <li class="cards__item">
     <div class="card">
       <header class="card__image">
