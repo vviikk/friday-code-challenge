@@ -1,9 +1,28 @@
 {
-  "name": "friday-code-challenge",
-  "version": "1.0.0",
-  "repository": "git@github.com:vviikk/friday-code-challenge.git",
-  "author": "Vik Ramanujam <vik@ramanuj.am>",
-  "license": "MIT",
-  "private": true,
-	"workspaces":  ["packages/web/*", "packages/server/*"]
+    "name": "friday-code-challenge",
+    "version": "1.0.0",
+    "repository": "git@github.com:vviikk/friday-code-challenge.git",
+    "author": "Vik Ramanujam <vik@ramanuj.am>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/web/*",
+        "packages/server/*"
+    ],
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-lint": "^1.0.0",
+        "eslint-plugin-lit": "^1.2.0"
+    },
+    "dependencies": {
+        "concurrently": "^5.1.0",
+    },
+    "scripts": {
+        "start:server": "cd ./packages/server && yarn start",
+        "start:web": "cd ./packages/web && yarn start",
+        "start": "concurrently 'yarn start:server' 'yarn start:web'"
+    }
 }
